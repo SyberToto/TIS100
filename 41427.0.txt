@@ -1,0 +1,45 @@
+@0
+START:SAV
+MOV RIGHT, ACC
+JNZ CHECK
+MOV ACC, DOWN
+MOV RIGHT, NIL
+MOV RIGHT, NIL
+MOV 0, ACC
+CHECK: SWP
+SAV
+SUB RIGHT
+JLZ SS
+MOV RIGHT, NIL
+JMP START
+SS:MOV RIGHT, ACC
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+
+
+@10
+
